@@ -11,7 +11,14 @@
 ### DESARROLLA UN ALGORITMO QUE CALCULE LA EDAD DE UNA PERSONA CON BASE A LA OBTENCION DE SU FECHA DE NACIMIENTO.
 
        1.- Inicio
-       2.- Fecha de nacimiento, fecha del dia de hoy
+       2.- int Fecha de nacimiento, int fecha del dia de hoy, string nombre, int edad
+       3.- Asignar año actual
+       4.- mostrar("Dame tu nmbre")
+       5.- asignar nombre
+       6.- mostrar("Dame tu fecha de nacimiento")
+       7.- asignar fecha de nacimiento
+       8.- mostrar("Dame el año actual")
+       
        3.- edad =  año de fecha de nacimiento - año del dia de hoy
        4.- Mostrar el resultado
        5.- Fin
