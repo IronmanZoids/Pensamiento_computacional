@@ -1,0 +1,16 @@
+Codigo de psint:
+
+  Algoritmo Calcula_la_Edad
+    edad <- 0
+    Escribir 'Ingresa tu edad '
+    Leer edad
+    Si edad>0 Y edad<120 Entonces
+      Si edad>=18 Entonces
+        Escribir 'Eres mayor de edad un adulto'
+      SiNo
+        Escribir 'Eres menor de edad'
+      FinSi
+    SiNo
+      Escribir 'Edad invalida revisa tu edad'
+    FinSi
+  FinAlgoritmo
