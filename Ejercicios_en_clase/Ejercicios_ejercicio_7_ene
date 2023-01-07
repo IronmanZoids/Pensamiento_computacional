@@ -1,5 +1,5 @@
 Codigo de psint:
-
+Ejercicio 1
   Algoritmo Calcula_la_Edad
     edad <- 0
     Escribir 'Ingresa tu edad '
@@ -14,3 +14,21 @@ Codigo de psint:
       Escribir 'Edad invalida revisa tu edad'
     FinSi
   FinAlgoritmo
+
+Ejercicio 2
+Algoritmo Numero_par_non
+	num<-0
+	Escribir "Ingresa el numero"
+	leer num
+	
+	Si num%2=0 Entonces
+		Escribir "El numero ",num," es un numero par "
+	SiNo
+		Escribir "Es un numero impar ", num
+	Fin Si
+FinAlgoritmo
+
+
+Tarea del 7 
+1.- solicitar pedir 3 numero al usuario, imprimir los numeros de mayer a menor, (diagramade flujo, psint)
+2.- usar if, nos diga un numero diga el dia de la semana y 1-dom sab-7, validaciones no es valido
