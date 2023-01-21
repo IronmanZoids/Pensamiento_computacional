@@ -1,0 +1,61 @@
+While ->
+Algoritmo Menu
+    Escribir "========== Bienvenido =========="
+    Escribir "  Elige una de las opciones "
+    Escribir "   1.- Cine  "
+    Escribir "   2.- Libro"
+    Escribir "   3.- Comida"
+    Escribir "   4.- Lugares"
+    Escribir "   5.- Salir"
+    Escribir " Ingresa tu opción "
+    Leer opcionElegida 
+    Mientras opcionElegida <> 5 Hacer
+      Segun opcionElegida Hacer
+        1:
+          Escribir "  Te recomendaria estas peliculas  "
+          Escribir "   1.- Mother "
+          Escribir "   2.- Robocop "
+          Escribir "   3.- Ironman "
+        2:
+          Escribir "   Te recomiendo estos libros   "
+          Escribir "   1.- El caballero de la armadura oxidada "
+          Escribir "   2.- No logo "
+          Escribir "   3.- Cañitas "
+        3:
+          Escribir "   Te recomiendo estos platillos   "
+          Escribir "   1.- Pulpo en su tinta "
+          Escribir "   2.- Coctel de camaron "
+          Escribir "   3.- Pulpo a la diabla "
+        4:
+          Escribir "   Te recomiendo estos lugares  "
+          Escribir "   1.- Parque hundido "
+          Escribir "   2.- Bosque de aragón "
+          Escribir "   3.- Six flags "
+        De Otro Modo:
+          Escribir "   Numero inválido, no existe la opción elegida "
+      Fin Segun
+
+      Escribir " Ingresa de nuevo tu opción de favor "
+      Leer opcionElegida 
+    Fin Mientras
+    Escribir "Fin del programa "
+  FinAlgoritmo
+
+
+for-->>
+  Algoritmo Tablas_FOR
+    Escribir " De que numero quieres la tabla "
+    Leer num
+    Para contador=1 Hasta 10 Con Paso 1 Hacer
+      resultado = contador * num
+      Escribir " resultado es ", contador ," x ", num," = ", resultado
+    Fin Para
+  FinAlgoritmo
+
+
+do while--->>
+
+
+se vio el for-->>Se cuantas veces se repite, 
+while-->> no se cuantas veces se repite y primero valida y luego ejecuta , 
+do while -->> ejecuta y luego pregunta 
